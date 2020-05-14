@@ -1,0 +1,38 @@
+.input-containter {
+  display: flex;
+}
+
+.row {
+  display: flex;
+  align-items: flex-end;
+  padding: 10px;
+}
+
+h1 {
+  margin: 5rem 0 2rem 0;
+  font-size: 1.6rem;
+}
+h2 {
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin-right: 1rem;
+}
+input {
+  border: 1px solid rgb(206, 205, 205);
+  padding: 7px 12px;
+  margin-right: 1rem;
+  font-size: 1.4rem;
+  font-weight: 300;
+  width: 20rem;
+}
+input:focus {
+  border: 1px solid rgb(156, 155, 155);
+  outline: none;
+  box-shadow: 0px 0px 1px 1px rgb(156, 155, 155);
+}
+.med-input {
+  width: 7rem;
+}
+.short-input {
+  width: 5.5rem;
+}
